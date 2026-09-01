@@ -1,0 +1,35 @@
+.film-info h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #eb0c0c;
+    text-align: left;
+}
+
+.film-info strong {
+    font-size: 20px;
+    color: #09ea98; 
+}
+
+.film-info p {
+    font-size: 18px; 
+    line-height: 1.6;
+    margin-bottom: 9px;
+    margin-top: 0;
+    text-align: left;
+  }
+  /* Ortalamayı kesinleştirmek için */
+.iframe-container {
+    display: flex;
+    justify-content: center; /* Ortalamak için */
+    align-items: center; /* Dikeyde de ortalamak için */
+    width: 100%; /* Tam genişlik */
+    margin-top: 40px; /* Üstten biraz boşluk */
+  }
+  
+  iframe {
+    border-radius: 8px;
+    width: 800px;  /* Genişlik */
+    height: 450px;  /* Yükseklik */
+    max-width: 100%;  /* İçeriğin taşmaması için */
+  }
+  
